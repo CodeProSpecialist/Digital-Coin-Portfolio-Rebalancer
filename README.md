@@ -1,5 +1,7 @@
-# Digital-Coin-Portfolio-Rebalancer for Binance.US
+# Digital-Coin-Portfolio-Rebalancer Bot 
 Digital Coin Portfolio Rebalancer
+
+( for Binance.US )
 
 Sells/converts any position NOT in the Top 25 bid volume (USDT value)
 •  Only buys coins from the Top 25 bid volume list (USDT pairs)
