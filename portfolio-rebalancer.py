@@ -3,7 +3,6 @@
     PORTFOLIO REBALANCER – TOP 25 BID VOLUME ONLY
     • Sell ANY position NOT in Top 25 bid volume (depth-5, USDT value)
     • Only buy from Top 25 bid volume list (USDT pairs)
-    • NEVER buy BTC, BCH, ETH
     • NEVER buy stablecoins (USDT, USDC, BUSD, TUSD, DAI, FDUSD, etc.)
     • Only sell stablecoins to free USDT if needed
     • Runs every 2 hours
