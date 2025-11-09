@@ -8,3 +8,5 @@ Sells/converts any position NOT in the Top 25 bid volume (USDT value)
 •  100% WebSocket-driven after startup
 •  Maintains $8 USDT buffer
 •  Logs + WhatsApp alerts
+
+Let the Top 25 bid volume dictate your portfolio — automatically.
