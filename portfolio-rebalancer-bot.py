@@ -649,6 +649,8 @@ def main():
             if now - last_rebalance >= REBALANCE_INTERVAL_SEC:
                 rebalance_portfolio(bot)
                 last_rebalance = now
+                # Now sleep 24 hours
+                sleep_after_rebalance()
 
             time.sleep(60)
 
