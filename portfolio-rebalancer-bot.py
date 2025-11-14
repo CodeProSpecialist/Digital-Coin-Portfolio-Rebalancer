@@ -133,6 +133,14 @@ def now_cst():
     return datetime.now(CST_TZ).strftime("%Y-%m-%d %H:%M:%S")
 
 
+def sleep_after_rebalance():
+    hours = 24
+    seconds = hours * 60 * 60
+    print(f"[REBALANCE] Completed. Sleeping for {hours} hours before next cycle...")
+    time.sleep(seconds)
+    print("[REBALANCE] 24 hours have passed. Resuming trading cycle.")
+
+
 # --------------------------------------------------------------------------- #
 # =============================== RETRY WRAPPER ============================= #
 # --------------------------------------------------------------------------- #
